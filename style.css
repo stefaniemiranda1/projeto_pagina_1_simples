@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Fundo branco com textura sutil */
+  font-family: sans-serif; /* Fonte sem serifa */
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ff8c00; /* Laranja vibrante */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Impede que a imagem ultrapasse o círculo */
+  margin-bottom: 10px; /* Espaçamento entre o círculo e o texto */
+}
+
+.circle img {
+  width: 100%; /* Ajusta a imagem para o tamanho do círculo */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.username {
+  font-size: 24px;
+  color: #333; /* Cinza escuro */
+}
+
+/* Estilos para os botões (simplificado) */
+button {
+  margin: 20px;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border: none; 
+}
+
+/* Efeito de hover para o botão */
+button:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(2, 126, 251, 1) 0%,
+    rgba(0, 172, 238, 1) 100%
+  );
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
+  
+
+}
+button {
+  display: flex; /* Define o botão como um contêiner flexbox */
+  align-items: center; /* Centraliza os itens na direção vertical */
+  justify-content: center; /* Centraliza os itens na direção horizontal */
+  background-color: transparent; /* Remove o background padrão do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 0; /* Remove o padding do botão */
+  cursor: pointer; /* Define o cursor como ponteiro para indicar que o botão é clicável */
+}
+
+
+button img {
+  width: 30px; /* Define a largura da imagem */
+  height: 30px; /* Define a altura da imagem */
+  
+    display: flex;  /* Define o botão como um container flexbox */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+  
+}
+
+
+
+
+footer {
+  background-color: #f0f0f0; /* Define a cor de fundo do rodapé */
+  padding: 20px; /* Define o espaçamento interno do rodapé */
+  text-align: center; /* Alinha o texto do rodapé ao centro */
+  color: #333; /* Define a cor do texto do rodapé */
+}
+
+footer p {
+  margin-bottom: 10px; /* Define a margem inferior dos parágrafos do rodapé */
+}
+
+footer img {
+  width: 30px; /* Define a largura da imagem */
+  height: 30px; /* Define a altura da imagem */
+  margin-right: 8px; /* Define a margem direita da imagem */
+  border-radius: 50%; /* Define bordas arredondadas para a imagem */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra à imagem */
+}
